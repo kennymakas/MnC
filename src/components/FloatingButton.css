@@ -1,0 +1,14 @@
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.whatsapp-button img, .call-button img {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}

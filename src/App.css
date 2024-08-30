@@ -1,0 +1,26 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.home-container, .about-container, .contact-container, .women-issues-container {
+  padding: 20px;
+}
+
+.home-column {
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.home-image, .about-image, .contact-image, .women-issues-image {
+  width: 100%;
+  height: auto;
+}
+
+.hover-animate:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

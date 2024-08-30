@@ -1,0 +1,40 @@
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .floating-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25d366; /* WhatsApp green color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-button.call {
+    background-color: #007bff; /* Call button blue color */
+  }
+  
+  .floating-button img {
+    width: 60%;
+    height: 60%;
+  }
+  
+  .floating-button:hover {
+    background-color: #128c7e; /* Darker WhatsApp green */
+  }
+  
+  .floating-button.call:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
